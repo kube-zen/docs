@@ -1,0 +1,83 @@
+.hero {
+  padding: 6rem 2rem 4rem;
+  text-align: center;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.accent {
+  color: var(--ifm-color-primary);
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: var(--ifm-color-secondary);
+  margin-bottom: 3rem;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+  text-align: left;
+}
+
+.card {
+  border: 1px solid var(--ifm-color-border);
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.comingSoon {
+  opacity: 0.6;
+}
+
+.comingSoon:hover {
+  opacity: 0.8;
+}
+
+.card h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.2rem;
+}
+
+.card p {
+  margin: 0 0 1rem;
+  font-size: 0.9rem;
+  color: var(--ifm-color-secondary);
+}
+
+.cta {
+  font-size: 0.85rem;
+  color: var(--ifm-color-primary);
+  font-weight: 500;
+}
+
+.links {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.links a {
+  color: var(--ifm-color-secondary);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.links a:hover {
+  color: var(--ifm-color-primary);
+}
