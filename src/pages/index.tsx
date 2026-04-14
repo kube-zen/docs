@@ -31,8 +31,8 @@ export default function Home() {
           </div>
           <div className={styles.links}>
             <Link href="https://zen-mesh.io">zen-mesh.io</Link>
-            <Link href="https://github.com/kube-ken/helm-charts">Helm Charts</Link>
-            <Link href="https://github.com/kube-ken">GitHub</Link>
+            <Link href="https://github.com/zenmesh/helm-charts">Helm Charts</Link>
+            <Link href="https://github.com/zenmesh">GitHub</Link>
             <Link href="https://discord.com/invite/clawd">Discord</Link>
           </div>
         </div>

@@ -41,4 +41,4 @@ See [zen-agent chart](./zen-agent) for full values reference.
 
 ## Chart Sources
 
-Charts are published on GitHub: [kube-ken/helm-charts](https://github.com/kube-zen/helm-charts)
+Charts are published on GitHub: [zenmesh/helm-charts](https://github.com/zenmesh/helm-charts)

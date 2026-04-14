@@ -10,7 +10,7 @@ const config: Config = {
   url: 'https://docs.zen-mesh.io',
   baseUrl: '/',
 
-  organizationName: 'kube-zen',
+  organizationName: 'zenmesh',
   projectName: 'docs',
 
   onBrokenLinks: 'throw',
@@ -29,7 +29,7 @@ const config: Config = {
           path: 'docs',
           routeBasePath: 'docs',
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/kube-zen/docs/tree/main/',
+          editUrl: 'https://github.com/zenmesh/docs/tree/main/',
           breadcrumbs: true,
           showLastUpdateAuthor: false,
           showLastUpdateTime: true,
@@ -50,7 +50,7 @@ const config: Config = {
         path: 'docs-zen-lock',
         routeBasePath: 'zen-lock',
         sidebarPath: './sidebars-zen-lock.ts',
-        editUrl: 'https://github.com/kube-ken/docs/tree/main/',
+        editUrl: 'https://github.com/zenmesh/docs/tree/main/',
       },
     ],
     [
@@ -60,7 +60,7 @@ const config: Config = {
         path: 'docs-helm-charts',
         routeBasePath: 'helm-charts',
         sidebarPath: './sidebars-helm-charts.ts',
-        editUrl: 'https://github.com/kube-zen/docs/tree/main/',
+        editUrl: 'https://github.com/zenmesh/docs/tree/main/',
       },
     ],
   ],
@@ -104,7 +104,7 @@ const config: Config = {
           position: 'right',
         },
         {
-          href: 'https://github.com/kube-zen',
+          href: 'https://github.com/zenmesh',
           label: 'GitHub',
           position: 'right',
         },
@@ -135,11 +135,11 @@ const config: Config = {
           items: [
             {
               label: 'Helm Charts',
-              href: 'https://github.com/kube-zen/helm-charts',
+              href: 'https://github.com/zenmesh/helm-charts',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/kube-zen',
+              href: 'https://github.com/zenmesh',
             },
             {
               label: 'Discord',
